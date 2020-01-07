@@ -1,6 +1,8 @@
 # Dockerfile: ActiveMQ 5
-Dockerfile do ActiveMQ 5 sobre o Linux Alpine com a JRE 8 da OpenJDK  
-O servidor ouvirá a porta padrão do ActiveMQ: `61616`
+_Dockerfile do ActiveMQ 5 sobre o Linux Alpine com a JRE 8 da OpenJDK_
+
+Port: `61616` (default)  
+Versão: `5.15.11` (November 25, 2019)
 
 #### Build da imagem
 ```bash
