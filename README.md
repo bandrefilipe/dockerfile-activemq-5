@@ -1,8 +1,10 @@
 # Dockerfile: ActiveMQ 5
 _Dockerfile do ActiveMQ 5 sobre o Linux Alpine com a JRE 8 da OpenJDK_
 
-Port: `61616` (default)  
-Versão: `5.15.11` (November 25, 2019)
+**Versão:** `5.15.11` (November 25, 2019)  
+**Port:** `61616` (default)  
+**WebConsole Port:** `8161`  
+**Jolokia REST API:** `8161/api/jolokia/`
 
 #### Build da imagem
 ```bash
@@ -19,7 +21,7 @@ $ docker push bandrefilipe/activemq:latest
 
 #### Download e execução da imagem
 ```bash
-$ docker run --name activemq bandrefilipe/activemq:latest
+$ docker run --name activemq --network {custom_network_name} bandrefilipe/activemq:latest
 ```
 
 #### Execução do container
