@@ -23,6 +23,9 @@ $ docker push bandrefilipe/activemq:latest
 
 #### Download e execução da imagem
 ```bash
+$ docker pull bandrefilipe/activemq:latest
+```
+```bash
 $ docker run --name activemq --network {custom_network_name} bandrefilipe/activemq:latest
 ```
 
