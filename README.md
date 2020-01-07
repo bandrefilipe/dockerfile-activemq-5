@@ -3,9 +3,9 @@ _Dockerfile do ActiveMQ 5 sobre o Linux Alpine com a JRE 8 da OpenJDK_
 
 **Versão:** `5.15.11` (November 25, 2019)  
 **Port:** `61616` (default)  
-**WebConsole Port:** `8161`
-  - user: `admin`  
-  - pswd: `admin`  
+**WebConsole Port:** `8161`  
+**WebConsole User:** `admin`  
+**WebConsole Pass:** `admin`  
 **Jolokia REST API:** `8161/api/jolokia/`
 
 #### Build da imagem
