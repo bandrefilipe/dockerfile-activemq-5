@@ -26,7 +26,7 @@ $ docker push bandrefilipe/activemq:latest
 $ docker pull bandrefilipe/activemq:latest
 ```
 ```bash
-$ docker run --name activemq --network {custom_network_name} -p 61616:61616 bandrefilipe/activemq
+$ docker run -d --name activemq --network {custom_network_name} -p 61616:61616 -p 8161:8161 bandrefilipe/activemq
 ```
 
 #### Execução do container
